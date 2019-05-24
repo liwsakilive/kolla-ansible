@@ -54,3 +54,44 @@ docker --version
 kolla-ansible pull
 docker images
 ```
+
+Check global configuration
+```
+grep -vE '^$|^#' /etc/kolla/globals.yml
+```
+
+Check cpu cores
+```
+egrep -c '(vmx|svm)' /proc/cpuinfo
+```
+
+Run pre-checks kolla ansible
+```
+kolla-ansible prechecks -i all-in-one
+```
+
+Run deploy openstack
+```
+kolla-ansible deploy -i all-in-one
+```
+
+Check service running
+```
+docker ps
+```
+
+Run Post deploy kolla ansible
+```
+kolla-ansible post-deploy
+```
+
+Install python-openstackclient
+```
+pip install python-openstackclient
+openstack --version
+```
+
+Run sourue openrc file
+```
+source /etc/kolla/admin-openrc.sh
+```
