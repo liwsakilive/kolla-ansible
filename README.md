@@ -42,7 +42,7 @@ vim /etc/kolla/globals.yml
 grep -vE '^$|^#' /etc/kolla/globals.yml
 ```
 
-Generate password for Cluster
+Generate password for cluster
 ```
 kolla-genpwd
 ```
