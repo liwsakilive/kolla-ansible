@@ -1,4 +1,4 @@
-# OpenStack Kolla Deploy Step
+# OpenStack Kolla Deploy Steps
 
 Update and Upgrade
 ```
