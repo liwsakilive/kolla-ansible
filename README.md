@@ -52,4 +52,5 @@ Run bootstrap server
 kolla-ansible -i all-in-one bootstrap-servers
 docker --version
 kolla-ansible pull
+docker images
 ```
