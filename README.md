@@ -7,7 +7,7 @@ apt update -y && apt upgrade -y
 
 Install packge software
 ```
-apt inatall htop iotop iftop python python-pip -y
+apt install htop iotop iftop python python-pip -y
 ```
 
 Upgrade pip
