@@ -46,7 +46,6 @@ kolla_external_vip_address: "183.90.170.201"
 # for the endpoints that will be created. This DNS name should map to
 # kolla_external_vip_address.
 #kolla_external_fqdn: "{{ kolla_external_vip_address }}"
-#kolla_external_fqdn: "116.90.252.37"
 
 ################
 # Docker options
