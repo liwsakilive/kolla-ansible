@@ -12,10 +12,10 @@ apt install htop iotop iftop python python-pip -y
 
 Upgrade pip
 ```
-sudo pip install --upgrade pip
+pip install --upgrade pip
 
 pip install --upgrade --user pip
-sudo cp /usr/local/bin/pip /usr/bin/ && sudo cp /usr/local/bin/pip2* /usr/bin/
+cp /usr/local/bin/pip /usr/bin/ && sudo cp /usr/local/bin/pip2* /usr/bin/
 ```
 
 Install ansible version 2.7.0
@@ -60,11 +60,6 @@ Check global configuration
 grep -vE '^$|^#' /etc/kolla/globals.yml
 ```
 
-Check cpu cores
-```
-egrep -c '(vmx|svm)' /proc/cpuinfo
-```
-
 Run pre-checks kolla ansible
 ```
 kolla-ansible prechecks -i all-in-one
@@ -94,4 +89,9 @@ openstack --version
 Run sourue openrc file
 ```
 source /etc/kolla/admin-openrc.sh
+```
+
+Check cpu cores (optional check)
+```
+egrep -c '(vmx|svm)' /proc/cpuinfo
 ```
