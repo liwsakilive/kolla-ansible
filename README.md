@@ -1,3 +1,7 @@
 # OpenStack Kolla Deploy Step by step
 
-ubuntu16.04[ubuntu-16-04.md]
+[![CentOS8](#)
+[![CentOS7](#)
+[![Ubuntu18.04](#)
+[![Ubuntu16.04](#)
+
