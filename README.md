@@ -1,9 +1,9 @@
 # OpenStack Kolla Deploy Step by step
 
-[CentOS8](#)
+[CentOS 8](#)
 
-[CentOS7](#)
+[CentOS 7](#)
 
-[Ubuntu18.04](#)
+[Ubuntu 18.04](#)
 
-[Ubuntu16.04](#)
+[Ubuntu 16.04](#)
